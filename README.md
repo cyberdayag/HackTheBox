@@ -19,6 +19,8 @@ This list will be expanded as new machines are solved, and new tools are applied
 - **RustScan** – Fast port scanner (can be used together with Nmap)  
 - **Masscan** – Extremely fast port scanner  
 - **Gobuster** – Directory and file brute-forcing  
+- **Feroxbuster** – Recursive content discovery tool for web paths and files
+- **ffuf** – Fast web fuzzer for discovering directories, files, and parameters
 
 ### Web Exploitation
 - **Burp Suite** – Web proxy for analyzing and manipulating HTTP traffic  
@@ -26,7 +28,9 @@ This list will be expanded as new machines are solved, and new tools are applied
 - **whatweb / Wappalyzer** – Web technology fingerprinting  
 
 ### Exploitation & Post-Exploitation
-- **Metasploit** – Exploitation framework used for initial access and privilege escalation  
+- **Metasploit** – Exploitation framework used for initial access and privilege escalation 
+- **smbclient** – Interacting with SMB shares and enumerating accessible files
+- **redis-cli** – Accessing exposed Redis instances and retrieving stored keys 
 
 ### Cracking & Passwords
 - **John the Ripper / Hashcat** – Password hash cracking tools  
