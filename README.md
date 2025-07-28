@@ -1,3 +1,5 @@
+![Image](images/image.png)
+
 # Hack The Box Machines
 
 This repository contains write-ups and reports for Hack The Box machines.
