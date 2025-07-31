@@ -1,12 +1,26 @@
 ![Image](images/image.png)
 
-# Hack The Box Machines
+# Hack The Box – Write-Ups and Exploitation Reports
 
 This repository contains write-ups and reports for Hack The Box machines.
 
 ## Repository Structure
 
-- All reports are stored as PDF files in the root of the repository.
+```bin
+.
+├── reports/
+│   ├── ... many other reports ...
+│   ├── responder.pdf
+│   ├── tree.pdf
+│   ├── sequel.pdf
+│   └── ... more ...
+|
+├── README.md
+└── images/
+    └── image.png
+```
+
+- All reports are stored as PDF files in the `reports/` folder.
 - Each PDF file is named after the corresponding machine.
 - Inside each file, you will find a detailed step-by-step explanation of the exploitation process — from initial reconnaissance to flag capture.
 
@@ -32,7 +46,11 @@ This list will be expanded as new machines are solved, and new tools are applied
 ### Exploitation & Post-Exploitation
 - **Metasploit** – Exploitation framework used for initial access and privilege escalation 
 - **smbclient** – Interacting with SMB shares and enumerating accessible files
+- **psexec.py** – Remote command execution on Windows via SMB using valid credentials (from Impacket)
 - **redis-cli** – Accessing exposed Redis instances and retrieving stored keys 
+
+
+ 
 
 ### Cracking & Passwords
 - **John the Ripper / Hashcat** – Password hash cracking tools  
@@ -52,4 +70,4 @@ Simply open the PDF file named after the machine you're interested in. Each repo
 
 ---
 
-**Note:** All machines in this repository were pwned on my own. Each solution was based either on prior experience or on studying the relevant tools
+**Note:** All machines in this repository were pwned on my own. Each solution was based either on prior experience or on studying the relevant tools.
