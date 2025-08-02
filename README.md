@@ -8,16 +8,16 @@ This repository contains write-ups and reports for Hack The Box machines.
 
 ```bin
 .
+|── images/
+|    └── image.png
 ├── reports/
-│   ├── ... many other reports ...
+│   ├── ... other reports ...
 │   ├── responder.pdf
 │   ├── tree.pdf
 │   ├── sequel.pdf
-│   └── ... more ...
-|
-├── README.md
-└── images/
-    └── image.png
+│   └── ... other reports ...
+├── .gitignore
+└── README.md
 ```
 
 - All reports are stored as PDF files in the `reports/` folder.
